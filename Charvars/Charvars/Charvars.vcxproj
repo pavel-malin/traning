@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0edbea72-d7ac-4c01-9d2a-378f9fe6b2d9}</ProjectGuid>
-    <RootNamespace>FIRST</RootNamespace>
+    <ProjectGuid>{5872742d-a457-4c83-972d-e37cb404e7c4}</ProjectGuid>
+    <RootNamespace>Charvars</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FIRST.cpp" />
+    <ClCompile Include="charvars.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
