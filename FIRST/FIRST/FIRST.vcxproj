@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4ac8e9ee-7d06-4169-b210-22ce4be84378}</ProjectGuid>
+    <ProjectGuid>{0edbea72-d7ac-4c01-9d2a-378f9fe6b2d9}</ProjectGuid>
     <RootNamespace>FIRST</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
