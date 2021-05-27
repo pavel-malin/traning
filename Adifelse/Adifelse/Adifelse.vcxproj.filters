@@ -15,7 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:Adifelse/Adifelse/Adifelse.vcxproj.filters
     <ClCompile Include="ad_if_else.cpp">
+=======
+    <ClCompile Include="circarea.cpp">
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Circrea/Circrea/Circrea.vcxproj.filters
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

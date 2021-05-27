@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="blackjack.cpp">
+    <ClCompile Include="assign.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

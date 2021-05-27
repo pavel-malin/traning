@@ -21,8 +21,18 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD
     <ProjectGuid>{5872742d-a457-4c83-972d-e37cb404e7c4}</ProjectGuid>
     <RootNamespace>Charvars</RootNamespace>
+=======
+<<<<<<< HEAD:Adelseif/Adelseif/Adelseif.vcxproj
+    <ProjectGuid>{910ff31a-1365-4ad4-b6a6-51e214c69715}</ProjectGuid>
+    <RootNamespace>Adelseif</RootNamespace>
+=======
+    <ProjectGuid>{5872742d-a457-4c83-972d-e37cb404e7c4}</ProjectGuid>
+    <RootNamespace>Charvars</RootNamespace>
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Charvars/Charvars/Charvars.vcxproj
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +149,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="charvars.cpp" />
+=======
+<<<<<<< HEAD:Adelseif/Adelseif/Adelseif.vcxproj
+    <ClCompile Include="ad_elseif.cpp" />
+=======
+    <ClCompile Include="charvars.cpp" />
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Charvars/Charvars/Charvars.vcxproj
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

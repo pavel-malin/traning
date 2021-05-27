@@ -21,8 +21,13 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD:Adifelse/Adifelse/Adifelse.vcxproj
     <ProjectGuid>{79269565-874c-419d-a931-69a63fa088fa}</ProjectGuid>
     <RootNamespace>Adifelse</RootNamespace>
+=======
+    <ProjectGuid>{9bc70728-0fc1-4fb5-8460-d316def7efda}</ProjectGuid>
+    <RootNamespace>Circrea</RootNamespace>
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Circrea/Circrea/Circrea.vcxproj
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +144,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD:Adifelse/Adifelse/Adifelse.vcxproj
     <ClCompile Include="ad_if_else.cpp" />
+=======
+    <ClCompile Include="circarea.cpp" />
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Circrea/Circrea/Circrea.vcxproj
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,8 +21,18 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD
     <ProjectGuid>{f6a9810b-20ea-4043-aed0-b87cef1174f8}</ProjectGuid>
     <RootNamespace>Assign</RootNamespace>
+=======
+<<<<<<< HEAD:Assign/Assign/Blackjack/Blackjack.vcxproj
+    <ProjectGuid>{21afed42-cf08-467e-8d3a-c1570fdcacbc}</ProjectGuid>
+    <RootNamespace>Blackjack</RootNamespace>
+=======
+    <ProjectGuid>{f6a9810b-20ea-4043-aed0-b87cef1174f8}</ProjectGuid>
+    <RootNamespace>Assign</RootNamespace>
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Assign/Assign/Assign.vcxproj
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

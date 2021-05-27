@@ -15,7 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:Adelseif/Adelseif/Adelseif.vcxproj.filters
     <ClCompile Include="ad_elseif.cpp">
+=======
+    <ClCompile Include="charvars.cpp">
+>>>>>>> 6ee400355c93a1ac4752212b0e8a649aad27290a:Charvars/Charvars/Charvars.vcxproj.filters
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
