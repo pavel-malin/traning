@@ -7,57 +7,85 @@ using std::endl;
 
 enum etype { laborer, secretary, manager, accountant, executive, researcher };
 
-
+struct Positions
+{
+	int number;
+	etype pos;
+};
 
 int main()
 {
-	char n;
+	char ch;
+	Positions post;
 	etype e;
 	cout << "choose a position(laborer, secretary, manager, accountant, executive, researcher): ";
-	
-	cin >> n;
-	switch (n)
+	cin >> ch;
+	switch (ch)
 	{
 	case 'a':
+		post.number = 4;
+		break;
+	case 'l':
+		post.number = 1;
+		break;
+	case 's':
+		post.number = 2;
+		break;
+	case 'm':
+		post.number = 3;
+		break;
+	case 'e':
+		post.number = 5;
+		break;
+	case 'r':
+		post.number = 6;
+	default:
+		cout << "There is no such position!!!!";
+		break;
+	}
+
+	switch (post.number)
+	{
+	case 4:
 		e = accountant;
 		if (e == 3)
 		{
 			cout << "accountant";
 			break;
 		}
-	case 'l':
+	case 1:
 		e = laborer;
 		if (e == 0)
 		{
 			cout << "laborer";
 			break;
 		}
-	case 's':
+	case 2:
 		e = secretary;
 		if (e == 1)
 		{
 			cout << "secretary";
 			break;
 		}
-	case 'e':
+	case 5:
 		e = executive;
 		if (e == 4)
 		{
-			cout << e;
+			cout << "executive";
 			break;
 		}
-	case 'r':
+	case 6:
 		e = researcher;
 		if (e == 5)
 		{
-			cout << e;
+			cout << "researcher";
 			break;
 		}
-	case 'm':
+	case 3:
 		e = manager;
 		if (e == 2)
 		{
-			cout << e;
+			cout << "manager";
 			break;
 		}
 	default:
