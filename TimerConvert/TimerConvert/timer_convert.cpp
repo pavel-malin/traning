@@ -34,7 +34,6 @@ int main()
 		t1.h = t1.h - 23;
 		--t1.h;
 	}
-	// long totalsec = t1.housrs*3600 + t1.minutes*60 + t1.seconds
 	cout << t1.h << ":" << t1.m << ":" << t1.s << endl;
 	result = t1.h * 3600 + t1.m * 60 + t1.s;
 	cout << "Result sec: " << result;
