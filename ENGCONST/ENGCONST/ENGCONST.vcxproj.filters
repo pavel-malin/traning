@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="constfu.cpp">
+    <ClCompile Include="engConst.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
