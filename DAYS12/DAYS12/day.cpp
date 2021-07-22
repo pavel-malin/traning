@@ -12,9 +12,10 @@ int main()
 	cin >> month;
 	cout << "\nEnter the day(1 to 31): ";
 	cin >> day;
-	for (int j = 0; j < month; j++)
+	total_days = day;
+	for (int j = 0; j < month - 1; j++)
 	{
-		total_days = days_per_month[j];
+		total_days += days_per_month[j];
 	}
 	cout << "Total number of days since the beginning of the year: " << total_days << endl;
 	return 0;
