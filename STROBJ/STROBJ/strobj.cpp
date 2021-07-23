@@ -6,6 +6,7 @@ using std::cout;
 using std::endl;
 
 using std::strcpy;
+using std::strcat;
 
 class String
 {
@@ -40,8 +41,8 @@ public:
 
 int main()
 {
-	String s1( "Happy New Year! " ); // error programming c2664
-	String s2 = "With new happiness!"; // error programming c2440
+	String s1 ("Happy New Year!"); // error programming c2664
+	String s2 = "With new happiness!"; // error programming c2440	
 	String s3;
 	cout << "\ns1=";
 	s1.display();
@@ -49,5 +50,13 @@ int main()
 	s2.display();
 	cout << "\ns3=";
 	s3.display();
+
+	s3 = s1;
+	cout << "\ns3=";
+	s3.display();
+	s3.concat(s2);
+	cout << "\ns3=";
+	s3.display();
+	cout << endl;
 	return 0;
 }
