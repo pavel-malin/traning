@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 
-#pragma warning(disable : 4996)
+#pragma warning(disable : 4996) // the not error strcpy();
 
 using std::cout;
 using std::endl;
