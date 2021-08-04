@@ -14,6 +14,7 @@ class String
 {
 private:
 	static const int SZ = 80;
+	// enum {SZ=80};
 	char str[SZ];
 public:
 	String()
