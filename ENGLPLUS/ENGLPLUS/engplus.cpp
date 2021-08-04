@@ -59,6 +59,7 @@ int main()
 	cout << endl;
 	cout << "dist3 = ";
 	dist3.showdist();
+	cout << endl;
 	cout << "dist4 = ";
 	dist4.showdist();
 	cout << endl;
