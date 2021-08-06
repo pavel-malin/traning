@@ -18,7 +18,7 @@ public:
 	}
 	String(char s[])
 	{
-		strcpy(str, s); // ERROR C4996
+		strcpy_s(str, s);
 	}
 	void display() const
 	{
@@ -39,6 +39,7 @@ int main()
 
 	s1.display();
 	
+
 	String s2 = "We will win!"; // ERROR C2440
 	cout << static_cast<char*>(s2);
 	cout << endl;
