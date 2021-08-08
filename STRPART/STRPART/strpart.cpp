@@ -1,4 +1,4 @@
-#pragma warning(disable : 4996) // not errror strcpy();
+#pragma warning(disable : 2664) // not errror strcpy();
 #include<iostream>
 #include<cstring>
 
@@ -17,7 +17,7 @@ private:
 public:
 	void setpart(char pname[], int pn, double c)
 	{
-		strcpy(partname, pname);
+		strcpy_s(partname, pname);
 		partnumber = pn;
 		cost = c;
 	}

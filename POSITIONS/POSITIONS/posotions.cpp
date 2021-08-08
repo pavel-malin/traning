@@ -23,71 +23,47 @@ int main()
 	switch (ch)
 	{
 	case 'a':
-		post.number = 4;
+		e = accountant;
 		break;
 	case 'l':
-		post.number = 1;
+		e = laborer;
 		break;
 	case 's':
-		post.number = 2;
+		e = secretary;
 		break;
 	case 'm':
-		post.number = 3;
+		e = manager;
 		break;
 	case 'e':
-		post.number = 5;
+		e = executive;
 		break;
 	case 'r':
-		post.number = 6;
+		e = researcher;
 	default:
 		cout << "There is no such position!!!!";
 		break;
 	}
 
-	switch (post.number)
+	switch (e)
 	{
-	case 4:
-		e = accountant;
-		if (e == 3)
-		{
-			cout << "accountant";
-			break;
-		}
-	case 1:
-		e = laborer;
-		if (e == 0)
-		{
-			cout << "laborer";
-			break;
-		}
-	case 2:
-		e = secretary;
-		if (e == 1)
-		{
-			cout << "secretary";
-			break;
-		}
-	case 5:
-		e = executive;
-		if (e == 4)
-		{
-			cout << "executive";
-			break;
-		}
-	case 6:
-		e = researcher;
-		if (e == 5)
-		{
-			cout << "researcher";
-			break;
-		}
-	case 3:
-		e = manager;
-		if (e == 2)
-		{
-			cout << "manager";
-			break;
-		}
+	case accountant:
+		cout << "accountant";
+		break;
+	case laborer:
+		cout << "laborer";
+		break;
+	case secretary:
+		cout << "secretary";
+		break;
+	case executive:
+		cout << "executive";
+		break;
+	case researcher:
+		cout << "researcher";
+		break;
+	case manager:
+		cout << "manager";
+		break;
 	default:
 		cout << "choose a position!!!";
 		break;
