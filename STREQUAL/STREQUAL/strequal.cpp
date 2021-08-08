@@ -18,11 +18,11 @@ private:
 public:
 	String()
 	{
-		strcpy(str, ""); // ERROR C4996
+		strcpy_s(str, ""); // ERROR C4996
 	}
 	String(char s[])
 	{
-		strcpy(str, s); // ERROR C4996
+		strcpy_s(str, s); // ERROR C4996
 	}
 	void display() const
 	{
