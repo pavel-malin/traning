@@ -1,4 +1,3 @@
-#pragma warning(disable : 2664) // not errror strcpy();
 #include<iostream>
 #include<cstring>
 
@@ -32,8 +31,10 @@ public:
 int main()
 {
 	part part1, part2;
-	part1.setpart("clutch", 4473, 217.55); // error	c2664
-	part2.setpart("crank", 9924, 419.25);  // error c2664
+	char c[] = "clutch";
+	char cr[] = "crank";
+	part1.setpart(c, 4473, 217.55); // error	c2664
+	part2.setpart(cr, 9924, 419.25);  // error c2664
 	cout << "\nOne detail: ";
 	part1.showpart();
 	cout << "\nTwo detail: ";
