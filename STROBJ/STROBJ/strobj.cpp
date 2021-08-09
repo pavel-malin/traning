@@ -1,4 +1,3 @@
-#pragma warning(disable : 4996) // not errror strcpy();
 #include<iostream>
 #include<cstring>
 
@@ -20,7 +19,7 @@ public:
 	}
 	String(char s[])
 	{
-		strcpy(str, s);
+		strcpy_s(str, s);
 	}
 	void display()
 	{
@@ -30,7 +29,7 @@ public:
 	{
 		if (strlen(str) + strlen(s2.str) < SZ)
 		{
-			strcat(str, s2.str);
+			strcat_s(str, s2.str);
 		}
 		else
 		{
@@ -41,8 +40,10 @@ public:
 
 int main()
 {
-	String s1 ("Happy New Year!"); // error programming c2664
-	String s2 = "With new happiness!"; // error programming c2440	
+	char ss1[] = ("Happy New Year!");
+	String s1 = ss1;
+	char ss2[] = "With new happiness!";
+	String s2 = ss2;
 	String s3;
 	cout << "\ns1=";
 	s1.display();
