@@ -13,17 +13,17 @@ using std::exit;
 class String
 {
 private:
-	static const int SZ = 80;
-	// enum {SZ=80};
+	//static const int SZ = 80;
+	enum { SZ = 80 };
 	char str[SZ];
 public:
 	String()
 	{
-		strcpy(str, "");
+		strcpy_s(str, "");
 	}
 	String(char s[])
 	{
-		strcpy(str, s);
+		strcpy_s(str, s);
 	}
 	void display() const
 	{
@@ -32,10 +32,10 @@ public:
 	String operator+(String ss) const
 	{
 		String temp;
-		if (strlen(str) + strlen(ss.str) << SZ)
+		if (strlen(str) + strlen(ss.str) < SZ)
 		{
-			strcpy(temp.str, str);
-			strcat(temp.str, ss.str);
+			strcpy_s(temp.str, str);
+			strcat_s(temp.str, ss.str);
 		}
 		else
 		{
@@ -48,12 +48,16 @@ public:
 
 int main()
 {
-	String s1 = "\nMerry Christmas! ";  // C4996 ERROR
-	String s2 = "Happy New Year!"; // C4996 ERROR
-	String s3;
-
+	char ss1[] = "\nMerry Christmas! ";
+	String s1 = ss1; 
 	s1.display();
+
+	char ss2[] = "Happy New Year!";
+	String s2 = ss2;
 	s2.display();
+	
+	
+	String s3;
 	s3.display();
 	
 	s3 = s1 + s2;
