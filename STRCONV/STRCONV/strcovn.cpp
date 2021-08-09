@@ -20,11 +20,11 @@ public:
 	{
 		strcpy_s(str, s);
 	}
-	void display() const
+	void display() 
 	{
 		cout << str;
 	}
-	operator char* ()
+	operator char*()
 	{
 		return str;
 	}
@@ -39,8 +39,8 @@ int main()
 
 	s1.display();
 	
-
-	String s2 = "We will win!"; // ERROR C2440
+	char sstr[] =  "We will win!     ";
+	String s2 = sstr;
 	cout << static_cast<char*>(s2);
 	cout << endl;
 
