@@ -48,7 +48,6 @@ int main()
 	Distance dist2(11, 6.25);
 
 	dist3 = dist1 + dist2;
-
 	dist4 = dist1 + dist2 + dist3;
 
 	cout << "dist1 = ";
