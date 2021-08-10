@@ -9,6 +9,6 @@ public:
 	}
 	void conFunc() const
 	{
-		alpha = 99; // error!!!!!!!
+		//alpha = 99; // error!!!!!!!
 	}
 };

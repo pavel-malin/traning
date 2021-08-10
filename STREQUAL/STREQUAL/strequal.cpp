@@ -40,8 +40,10 @@ public:
 
 int main()
 {
-	String s1 = "yes"; // ERROR C2440
-	String s2 = "no"; // ERROR C2440
+	char ss1[] = "yes"; // ERROR C2440
+	String s1 = ss1;
+	char ss2[] = "no"; // ERROR C2440
+	String s2 = ss2;
 	String s3;
 
 	cout << "\nInput 'yes' or 'no': ";
