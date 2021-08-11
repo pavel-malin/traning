@@ -29,9 +29,18 @@ public:
 			cout << '0';
 		cout << seconds << ':';
 	}
-	int getHrs() const;
-	int getMins() const;
-	int getSecs() const;
+	int getHrs() const
+	{
+		return hours;
+	}
+	int getMins() const
+	{
+		return minutes;
+	}
+	int getSecs() const
+	{
+		return seconds;
+	}
 };
 
 class time12

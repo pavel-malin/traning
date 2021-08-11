@@ -40,9 +40,9 @@ public:
 
 int main()
 {
-	char ss1[] = "yes"; // ERROR C2440
+	char ss1[] = "yes";
 	String s1 = ss1;
-	char ss2[] = "no"; // ERROR C2440
+	char ss2[] = "no";
 	String s2 = ss2;
 	String s3;
 
