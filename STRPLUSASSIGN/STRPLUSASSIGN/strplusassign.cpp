@@ -29,20 +29,16 @@ public:
 	{
 		cout << str;
 	}
-	String operator+=(String ss) const
+	String operator+=(String ss)
 	{
-		String temp;
-		if (strlen(str) + strlen(ss.str) < SZ)
-		{
-			strcpy_s(temp.str, str);
-			strcat_s(temp.str, ss.str);
-		}
-		else
+		if (strlen(str) + strlen(ss.str) >= SZ)
 		{
 			cout << "\nOveflow!";
 			exit(1);
 		}
-		return temp;
+		strcat_s(str, ss.str);
+		
+		return String(str);
 	}
 
 };
