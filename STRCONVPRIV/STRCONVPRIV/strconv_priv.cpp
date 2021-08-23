@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h>
+#include<cstring>
 
 using std::cout;
 using std::endl;
