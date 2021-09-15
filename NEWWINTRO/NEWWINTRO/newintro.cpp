@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 #include<cstring>
 
@@ -16,7 +15,7 @@ int main()
 
 	char* ptr;
 	ptr = new char[len + 1];
-	strcpy_s(ptr, 41, str); // defin (ERROR C2660) _CRT_SECURE_NO_WARNINGS
+	strcpy_s(ptr, 41, str); 
 
 	cout << "ptr = " << ptr << endl;
 
