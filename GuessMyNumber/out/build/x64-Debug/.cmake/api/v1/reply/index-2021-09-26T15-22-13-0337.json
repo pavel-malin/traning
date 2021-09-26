@@ -11,15 +11,15 @@
 			"cmake" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 			"cpack" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe",
 			"ctest" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
-			"root" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.19"
+			"root" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 19,
-			"patch" : 20122902,
-			"string" : "3.19.20122902-MSVC_2",
+			"minor" : 20,
+			"patch" : 21032501,
+			"string" : "3.20.21032501-MSVC_2",
 			"suffix" : ""
 		}
 	},
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-25dbd5b566489ba35871.json",
+			"jsonFile" : "cache-v2-1916cd63b6c4399591b0.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,8 +44,17 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-f032dd70e4415554fe9a.json",
+			"jsonFile" : "cmakeFiles-v1-047e591acfc68c389e50.json",
 			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-70dd91c3a972b48ec79d.json",
+			"kind" : "toolchains",
 			"version" : 
 			{
 				"major" : 1,
@@ -72,12 +81,16 @@
 					{
 						"kind" : "codemodel",
 						"version" : 2
+					},
+					{
+						"kind" : "toolchains",
+						"version" : 1
 					}
 				],
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-25dbd5b566489ba35871.json",
+						"jsonFile" : "cache-v2-1916cd63b6c4399591b0.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -86,7 +99,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-f032dd70e4415554fe9a.json",
+						"jsonFile" : "cmakeFiles-v1-047e591acfc68c389e50.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{
@@ -101,6 +114,15 @@
 						{
 							"major" : 2,
 							"minor" : 2
+						}
+					},
+					{
+						"jsonFile" : "toolchains-v1-70dd91c3a972b48ec79d.json",
+						"kind" : "toolchains",
+						"version" : 
+						{
+							"major" : 1,
+							"minor" : 0
 						}
 					}
 				]
