@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{adbd1636-f0a0-4589-9cf8-047f4fef3b96}</ProjectGuid>
-    <RootNamespace>HORSE</RootNamespace>
+    <ProjectGuid>{cc18d6fb-a24f-4d42-8b92-61fd5a5d0a91}</ProjectGuid>
+    <RootNamespace>NOTVIRT</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="msoftcon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="horse.cpp" />
-    <ClCompile Include="msoftcon.cpp" />
+    <ClCompile Include="notivirt.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

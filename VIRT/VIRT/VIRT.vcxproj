@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{adbd1636-f0a0-4589-9cf8-047f4fef3b96}</ProjectGuid>
-    <RootNamespace>HORSE</RootNamespace>
+    <ProjectGuid>{d2d21dee-4ae7-42f9-bf5e-abf1b07c5b33}</ProjectGuid>
+    <RootNamespace>VIRT</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="msoftcon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="horse.cpp" />
-    <ClCompile Include="msoftcon.cpp" />
+    <ClCompile Include="virt.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

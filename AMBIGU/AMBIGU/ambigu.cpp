@@ -10,7 +10,7 @@ public:
 		cout << "Class A\n";
 	}
 };
-
+ 
 class B
 {
 public:

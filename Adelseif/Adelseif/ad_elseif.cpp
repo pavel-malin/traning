@@ -1,6 +1,7 @@
 #include<iostream>
 #include<conio.h> // _getche()
 
+
 using std::cout;
 
 int main()
@@ -8,11 +9,11 @@ int main()
 	setlocale(LC_ALL, "");
 	char dir = 'a';
 	int x = 10, y = 10;
-	cout << "Нажмите Enter для выхода...\n";
+	cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Enter пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ...\n";
 	while (dir != '\r')
 	{
-		cout << "\nВаши координаты: " << x << ", " << y;
-		cout << "\nВыберите направление (n,s,e,w): ";
+		cout << "\nпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " << x << ", " << y;
+		cout << "\nпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (n,s,e,w): ";
 		dir = _getche();
 		if (dir == 'n')
 			y--;
