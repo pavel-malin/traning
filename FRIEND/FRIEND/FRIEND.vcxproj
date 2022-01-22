@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b7565c6b-750f-4b5d-b067-3bf9c3ab9223}</ProjectGuid>
-    <RootNamespace>Advenand</RootNamespace>
+    <ProjectGuid>{49aff16f-fc1e-426f-8012-827509d6f77e}</ProjectGuid>
+    <RootNamespace>FRIEND</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ad_venand.cpp" />
+    <ClCompile Include="friend.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
