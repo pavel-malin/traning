@@ -5,6 +5,7 @@
 
 using std::cout;  // using namespace std;
 using std::endl;
+using std::cin;
 
 using std::strlen;
 using std::strcpy;
