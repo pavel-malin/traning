@@ -1,3 +1,4 @@
+#pragma warning(disable: 4996)
 // class specifier for very long integer type
 #include<iostream>
 #include<string.h>  // for strlen(), etc
