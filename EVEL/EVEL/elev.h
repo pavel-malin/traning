@@ -26,7 +26,7 @@ class building;  // forward declaration
 class elevator
 {
 private:
-	building* ptrBulding;  // ptr to parent building
+	building* ptrBuilding;  // ptr to parent building
 	const int car_number;  // our number (0 to nc-1)
 	int current_floor;  // where are we? (0 to nf-1)
 	int old_floor;  // where were are? (0 to nf-1)

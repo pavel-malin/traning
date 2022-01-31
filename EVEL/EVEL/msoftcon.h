@@ -17,7 +17,7 @@ enum color {
     cDARK_GRAY = 8, cBLUE = 9, cGREEN = 10, cCYAN = 11,
     cRED = 12, cMAGENTA = 13, cYELLOW = 14, cWHITE = 15
 };
-//---------------------------------------------------------
+
 void init_graphics();
 void set_color(color fg, color bg = cBLACK);
 void set_cursor_pos(int x, int y);
