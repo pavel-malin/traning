@@ -1,4 +1,4 @@
-#pragma once
+#pragma warning(disable : 4996)
 // header file for elevators -- contains class declarations
 #include "elev_app.h"   // provided by client
 #include "msoftcon.h"   // for console graphic

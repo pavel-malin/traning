@@ -23,7 +23,6 @@ void set_cursor_pos(int x, int y);
 void clear_screen();
 void wait(int milliseconds);
 void clear_line();
-void clear_line();
 void draw_rectangle(int left, int top, int right, int bottom);
 void draw_circle(int x, int y, int rad);
 void draw_line(int x1, int y1, int x2, int y2);

@@ -181,7 +181,7 @@ void elevator::car_display() // display eleavator image
 		cout << " \xDB\xDB\xDB";  // closed door, no 
 		break;					  // happy face (default)
 	}
-	set_cursor_pos(SPACING + (car_number + 1) * NUM_FLOORS - current_floor);
+	set_cursor_pos(SPACING + (car_number + 1) * SPACING, NUM_FLOORS - current_floor);
 
 	switch (unloading_timer)
 	{
