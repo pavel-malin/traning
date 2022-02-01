@@ -19,7 +19,7 @@ building::building()  // constructor
 	for (int j = 0; j < NUM_FLOORS; j++)  // for each floor
 	{
 		set_cursor_pos(3, NUM_FLOORS - j); // put floor number
-		itoa(j + 1, ustring, 10);  // on screen
+		_itoa(j + 1, ustring, 10);  // on screen
 		cout << setw(3) << ustring;
 		floor_request[UP][j] = false;  // no floor requests yet
 		floor_request[DN][j] = false;
@@ -70,7 +70,7 @@ void building::record_floor_reqs()
 
 	set_cursor_pos(1, 22);  // bottom of screen
 	cout << "Press [Enter] to call an elevator: ";
-	if (!kbhit())  // wait for keypress (must be CR)
+	if (!_kbhit())  // wait for keypress (must be CR)
 		return;
 	cin.ignore(10, '\n');
 	if (ch == '\x1B')  // if escape key, end program

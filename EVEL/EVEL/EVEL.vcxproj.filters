@@ -21,9 +21,15 @@
     <ClInclude Include="msoftcon.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="elev_app.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="elev.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="elev_app.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

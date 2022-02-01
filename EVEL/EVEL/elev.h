@@ -1,6 +1,6 @@
 #pragma once
 // header file for elevators -- contains class declarations
-#include "evel_app.h"   // provided by client
+#include "elev_app.h"   // provided by client
 #include "msoftcon.h"   // for console graphic
 
 #include<iostream>
@@ -9,12 +9,7 @@
 #include<stdlib.h>  // for itoa()
 #include<process.h> // for exit()
 
-using std::cout; // namespace std;
-using std::endl;
-using std::cin;
-
-using std::setw;
-using std::exit;
+using namespace std;
 
 enum direction { UP, DN, STOP };
 const int LOAD_TIME = 3;  // loading/unloding time (ticks)

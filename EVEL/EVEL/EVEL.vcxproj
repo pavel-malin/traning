@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="elev.h" />
+    <ClInclude Include="elev_app.h" />
     <ClInclude Include="msoftcon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="elev.cpp" />
+    <ClCompile Include="elev_app.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
