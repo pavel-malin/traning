@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8e323667-5921-47eb-a51e-51ef940b28e1}</ProjectGuid>
-    <RootNamespace>FOUTITER</RootNamespace>
+    <ProjectGuid>{50c3ab01-fb77-46e2-89f3-2c4f4c46cf3f}</ProjectGuid>
+    <RootNamespace>INITER</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="foutiter.cpp" />
+    <ClCompile Include="initer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
