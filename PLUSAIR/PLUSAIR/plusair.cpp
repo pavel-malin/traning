@@ -38,7 +38,8 @@ public:
 			tempm -= 60;
 		}
 		return airtime(temph, tempm);  // return sum
-	}
+	
+
 			// overloaded  == operator
 	bool operator == (const airtime& at2) const
 	{
