@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClInclude Include="landlord.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="landlord.cpp" />
+    <ClCompile Include="lordApp.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -98,7 +98,7 @@ class rentRecord
 private:
 	// set of pointers to rentRow objects (one per tenant)
 	set<rentRow*, compareRows> setPtrsRR;
-	set<rentRow, compareRows>::iterator iter;
+	set<rentRow*, compareRows>::iterator iter;
 
 public:
 	~rentRecord();
@@ -149,6 +149,11 @@ class compareDates   // function object -- compares expenses
 {
 public:
 	bool operator () (expense*, expense*) const;
+};
+class compareCategories
+{
+public:
+	bool operator() (expense*, expense*) const;
 };
 
 		// class expenseRecord //
