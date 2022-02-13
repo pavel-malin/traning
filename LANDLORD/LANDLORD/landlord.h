@@ -10,7 +10,7 @@
 using namespace std;
 
 		// global methods  // 
-void getLine(string& inStr);  // get line of text
+void getaLine(string& inStr);  // get line of text
 char getChar();		// get a character
 
 		// class tenant //
@@ -58,7 +58,7 @@ class tenantInputScreen
 {
 private:
 	tenantList* ptrTenantList;
-	string Name;
+	string tName;
 	int aptNo;
 	
 public:
@@ -107,8 +107,8 @@ public:
 	float getSumOfRents();  // sum all rents in record
 };
 
-		// class rentInputSreen //
-class rentInputSreen
+		// class rentInputScreen //
+class rentInputScreen
 {
 private:
 	tenantList* ptrTenantList;
@@ -119,7 +119,7 @@ private:
 	int month;
 	int aptNo;
 public:
-	rentInputSreen(tenantList* ptrTL, rentRecord* ptrRR) :
+	rentInputScreen(tenantList* ptrTL, rentRecord* ptrRR) :
 		ptrTenantList(ptrTL), ptrRentRecord(ptrRR)
 	{ /* empty */ }
 	void getRent();   // rent for one tenant and one month
@@ -201,7 +201,7 @@ private:
 	tenantList* ptrTenantList;
 	tenantInputScreen* ptrTenantInputScreen;
 	rentRecord* ptrRentRecord;
-	rentInputSreen* ptrRentInputScreen;
+	rentInputScreen* ptrRentInputScreen;
 	expenseRecord* ptrExpenseRecor;
 	expenseInputScreen* ptrExpenseInputScreen;
 	annualReport* ptrAnnualReport;

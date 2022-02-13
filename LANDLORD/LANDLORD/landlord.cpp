@@ -171,32 +171,19 @@ rentRecord::~rentRecord()  // destructor
 void rentRecord::insertRent(int aptNo, int month, float amount)
 {
 	rentRow searchRow(aptNo);  // temp row with same aptNo
-	iter = setPtrsRR.begin();  // search setPtrsRR
+	iter = setPtrsRR.begin();		//search setPtrsRR
 	while (iter != setPtrsRR.end())
 	{
-		if (searchRow == **iter)  // rentRow found?
-		{
-			(*iter)->setRent(month, amount);  // put row in vector
-			return;
-		}
-		else
-			iter++;
-	}			// didn't find  it
-	rentRow* searchRow(aptNo);  // temp row with same aptNo
-	iter = setPtrsRR.begin();  // search setPtrsRR
-
-	while (iter != setPtrsRR.end())
-	{
-		if (searchRow == **iter)  // rentRow found?
-		{			// yes,
+		if (searchRow == **iter)   // rentRow found?
+		{		// yes
 			(*iter)->setRent(month, amount);  // put rent in row
 			return;
 		}
 		else
 			iter++;
-	}								// didn't find it
+	}						// didn't find it 
 	rentRow* ptrRow = new rentRow(aptNo);  // make new row
-	ptrRow->setRent(month, amount);  // put rent in row
+	ptrRow->setRent(month, amount); // put rent in row
 	setPtrsRR.insert(ptrRow);  // put row in vector
 }
 // -------------------------------------------
@@ -446,7 +433,7 @@ void userInterface::interact()
 				delete ptrTenantInputScreen;
 				break;
 			case 'r':
-				ptrRentInputScreen = new rentInputSreen(ptrTenantList, ptrRentRecord);
+				ptrRentInputScreen = new rentInputScreen(ptrTenantList, ptrRentRecord);
 				ptrRentInputScreen->getRent();
 				delete ptrRentInputScreen;
 				break;
