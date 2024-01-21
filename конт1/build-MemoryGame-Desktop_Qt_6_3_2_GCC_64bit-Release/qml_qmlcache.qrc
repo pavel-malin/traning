@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="start.qml">../MemoryGame/start.qml</file>
+        <file alias="game.qml">../MemoryGame/game.qml</file>
+    </qresource>
+</RCC>
