@@ -13,7 +13,7 @@ vector<QString> vectorToCompare;
 
 GameLogic::GameLogic() : m_counter(0), m_points(0)
 {
-    // perform custom initialization steps here
+    // выполните пользовательские шаги инициализации здесь
 }
 
 void GameLogic::checkVisibility(QList<QObject *> model)
@@ -87,7 +87,7 @@ void GameLogic::setCounter(int value)
     if (m_counter != value)
     {
         m_counter = value;
-        emit counterChanged(); // trigger signal of counter change
+        emit counterChanged(); // триггерный сигнал смены счетчика
     }
 }
 

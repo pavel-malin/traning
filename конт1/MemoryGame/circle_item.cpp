@@ -7,7 +7,7 @@ CircleItem::CircleItem(QQuickItem *parent)
     : QQuickPaintedItem(parent)
 {
 }
-
+// оформление окна игры
 void CircleItem::paint(QPainter *painter)
 {
     painter->save();

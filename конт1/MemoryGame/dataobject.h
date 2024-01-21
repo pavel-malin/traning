@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QEvent>
-
+// сохранение данных игры
 class DataObject : public QObject
 {
     Q_OBJECT
@@ -13,7 +13,7 @@ class DataObject : public QObject
     Q_PROPERTY(QString isWin READ isWin WRITE setIsWin NOTIFY isWinChanged)
     Q_PROPERTY(QString colFront READ colFront WRITE setColFront NOTIFY colFrontChanged)
     Q_PROPERTY(QString colBack READ colBack WRITE setColBack NOTIFY colBackChanged)
-
+// подключение кнопок и функций
 public:
     DataObject(QObject *parent = 0);
     DataObject(const QString &name, const QString &zrodlo, const bool &flipped, const QString &isWin, const QString &colFront, const QString &colBack, QObject *parent = 0);
@@ -36,7 +36,7 @@ public:
 
     QString colBack();
     void setColBack(const QString &colBack);
-
+// все кнопки
 signals:
     void nameChanged();
     void zrodloChanged();
@@ -44,7 +44,7 @@ signals:
     void isWinChanged();
     void colFrontChanged(QString colF);
     void colBackChanged(QString colB);
-
+// движение обьектов
 private:
     QString m_name;
     QString m_zrodlo;

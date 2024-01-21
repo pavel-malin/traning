@@ -2,7 +2,7 @@
 #define CIRCLE_ITEM_H
 
 #include <QQuickPaintedItem>
-
+// настройки интефейса игры и цветовой гаммы.
 class CircleItem : public QQuickPaintedItem
 {
     Q_OBJECT

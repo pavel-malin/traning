@@ -180,7 +180,7 @@ Window{
 
             Flipable
             {
-                //                property bool flipped_flipped
+                //                свойства булевая перевернутых карт
                 required property string name
                 required property string zrodlo
                 required property bool flipped

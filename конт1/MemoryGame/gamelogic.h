@@ -7,8 +7,8 @@
 class GameLogic : public QObject
 {
     Q_OBJECT
-    Q_PROPERTY(int counter READ counter WRITE setCounter NOTIFY counterChanged) // this makes counter available as a QML property
-    Q_PROPERTY(int points READ points WRITE setPoints NOTIFY pointsChanged)     // this makes points available as a QML property
+    Q_PROPERTY(int counter READ counter WRITE setCounter NOTIFY counterChanged) // это делает счетчик доступным как свойство qml
+    Q_PROPERTY(int points READ points WRITE setPoints NOTIFY pointsChanged)     // это делает точку доступной как свойства qml
 
 public:
     GameLogic();
@@ -18,15 +18,15 @@ public:
     void setPoints(int value);  // setter
 
 private:
-    int m_counter; // initialize private variable (with default value) that can be only modified if getter is used
-    int m_points;  // initialize private variable (with default value) that can be only modified if getter is used
+    int m_counter; // инициализировать частную переменную (со значением по умолчанию), которую можно изменить только при использовании метода получения
+    int m_points;  // инициализировать частную переменную (со значением по умолчанию), которую можно изменить только при использовании метода получения
 
-signals: // signals are sent from C++ to QML
+signals: // сигналы передаются из С++ в qml
     void counterChanged();
     void pointsChanged(QString xd);
     void win();
 
-public slots: // slots are public methods available in QML
+public slots: // слоты это общедоступные методы, доступные в qml
     void checkVisibility(QList<QObject *> model);
     void restart(QList<QObject *> model);
 };

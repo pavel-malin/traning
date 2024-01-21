@@ -12,7 +12,7 @@ int main(int argc, char ** argv)
     QGuiApplication app(argc, argv);
     qmlRegisterType<CircleItem>("Shapes", 1, 0, "Ellipse");
     QQmlApplicationEngine engine;
-
+// все расположение картинок игры
     QList<QObject *> dataList = {
         new DataObject("0", "qrc:/images/1.png", false, "unmatched", "#374759", "#F0A53E"),
         new DataObject("1", "qrc:/images/2.png", false, "unmatched", "#374759", "#F0A53E"),
@@ -34,7 +34,7 @@ int main(int argc, char ** argv)
 
     std::random_device rd;
     std::mt19937 g(rd());
-    std::shuffle(dataList.begin(), dataList.end(), g); //shuffling tiles
+    std::shuffle(dataList.begin(), dataList.end(), g); // перетасовка карт
 
     for (int i = 0; i < 16; i++)
     {

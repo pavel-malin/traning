@@ -27,12 +27,12 @@ void DataObject::setName(const QString &name)
         emit nameChanged();
     }
 }
-
+// источник
 QString DataObject::zrodlo()
 {
     return m_zrodlo;
 }
-
+// установления источников
 void DataObject::setZrodlo(const QString &zrodlo)
 {
     if (zrodlo != m_zrodlo)
@@ -41,12 +41,12 @@ void DataObject::setZrodlo(const QString &zrodlo)
         emit zrodloChanged();
     }
 }
-
+// перевод карт
 bool DataObject::flipped()
 {
     return m_flipped;
 }
-
+// установление переворот карт если карты совподают
 void DataObject::setFlipped(const bool &flipped)
 {
     if (flipped != m_flipped)
@@ -55,7 +55,7 @@ void DataObject::setFlipped(const bool &flipped)
         emit flippedChanged(m_flipped);
     }
 }
-
+// установление переворот карт если карты не совпадают
 void DataObject::setFlippedToFalse(const bool &flipped)
 {
     if (flipped == true)
@@ -64,12 +64,12 @@ void DataObject::setFlippedToFalse(const bool &flipped)
         emit flippedChanged(m_flipped);
     }
 }
-
+// Победа
 QString DataObject::isWin()
 {
     return m_isWin;
 }
-
+// определение ли все карты верны
 void DataObject::setIsWin(const QString &isWin)
 {
     if (isWin != m_isWin)
@@ -78,12 +78,12 @@ void DataObject::setIsWin(const QString &isWin)
         emit isWinChanged();
     }
 }
-
+// цвет фоно
 QString DataObject::colFront()
 {
     return m_colFront;
 }
-
+// установление цвета при переворота карт
 void DataObject::setColFront(const QString &colFront)
 {
     if (colFront != m_colFront)
@@ -92,12 +92,12 @@ void DataObject::setColFront(const QString &colFront)
         emit colFrontChanged(m_colFront);
     }
 }
-
+// установлении темный отенок карт
 QString DataObject::colBack()
 {
     return m_colBack;
 }
-
+// меняние цвета карт если верно
 void DataObject::setColBack(const QString &colBack)
 {
     if (colBack != m_colBack)
